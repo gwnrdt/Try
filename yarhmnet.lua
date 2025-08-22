@@ -807,4 +807,5 @@ local function DYUODA_routine() -- Script: StarterGui.YARHMNetwork.Network
 	getgenv().YARHMNetwork_available = true
 end
 coroutine.wrap(VQBL_routine)()
+
 coroutine.wrap(DYUODA_routine)()
