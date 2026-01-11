@@ -1,5 +1,3 @@
- 
--- I were too lazy to obfuscate
 
 local function getGlobalTable()
 	return typeof(getfenv().getgenv) == "function" and typeof(getfenv().getgenv()) == "table" and getfenv().getgenv() or _G
