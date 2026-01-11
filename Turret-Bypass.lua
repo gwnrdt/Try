@@ -6,8 +6,8 @@ if getGlobalTable().TACB then
 	return getGlobalTable().TACB
 end
 
-local network = loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/refs/heads/main/Core/Libraries/Network/Main.lua"))()
-local dragFuncs = loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/refs/heads/main/Core/Loaders/Dead-Rails/DragFunctions.lua", true))()
+local network = loadstring(game:HttpGet("https://raw.githubusercontent.com/gwnrdt/Try/refs/heads/main/Network.lua"))()
+local dragFuncs = loadstring(game:HttpGet("https://raw.githubusercontent.com/gwnrdt/Try/refs/heads/main/Drag-Functions.lua", true))()
 
 local plr = game:GetService("Players").LocalPlayer
 
