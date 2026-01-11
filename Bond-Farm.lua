@@ -6,7 +6,7 @@ if getGlobalTable().DRBF then
 	return getGlobalTable().DRBF
 end
 
-local tb = loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/refs/heads/main/Core/Loaders/Dead-Rails/TurretBypass.lua"))()
+local tb = loadstring(game:HttpGet("https://raw.githubusercontent.com/gwnrdt/Try/refs/heads/main/Turret-Bypass.lua"))()
 
 local bondFarm = {
 	Enabled = false,
