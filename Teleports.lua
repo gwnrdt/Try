@@ -1,7 +1,7 @@
 local teleports = {}
-local tb = loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/refs/heads/main/Core/Loaders/Dead-Rails/TurretBypass.lua"))()
+local tb = loadstring(game:HttpGet("https://raw.githubusercontent.com/gwnrdt/Try/refs/heads/main/Turret-Bypass.lua"))()
 local plr = game:GetService("Players").LocalPlayer
-local network = loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/refs/heads/main/Core/Libraries/Network/Main.lua"))()
+local network = loadstring(game:HttpGet("https://raw.githubusercontent.com/gwnrdt/Try/refs/heads/main/Network.lua"))()
 
 local function teleport(pos,y,z)
 	if typeof(pos) == "CFrame" then
